@@ -1,7 +1,7 @@
 # Setup
 title: Just Archive It!
 url: https://lxvs.github.io/jai
-baseurl: ""
+baseurl: "/jai"
 permalink: pretty
 
 # Gems
