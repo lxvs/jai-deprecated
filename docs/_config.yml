@@ -1,0 +1,38 @@
+# Setup
+title: Just Archive It!
+url: https://lxvs.github.io/jai
+baseurl: ""
+permalink: pretty
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+ga_analytics: 1
+
+# Specify the author for blog posts
+author:
+  name: lxvs
+  url: https://twitter.com/lllxvs
+  email: jn.apsd@gmail.com
+
+# Custom vars
+version: 1.0.0
