@@ -1,5 +1,5 @@
-@REM v1.0.0
-@REM 2021-05-04
+@REM v1.0.1
+@REM 2021-05-20
 @REM https://github.com/lxvs/archiveit
 
 @setlocal
@@ -32,7 +32,7 @@
     @>&2 (
         echo ARCHIVEIT: ERROR: Couldn't find valid 7z executable.
         echo            Current defined PATH_TO_7Z: %PATH_TO_7Z%
-        echo            Please fix or defined the Environment Variable [PATH_TO_7Z]
+        echo            Please fix or define the Environment Variable [PATH_TO_7Z]
     )
     exit /b 3
 )
