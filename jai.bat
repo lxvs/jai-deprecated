@@ -1,5 +1,5 @@
 @setlocal
-@set "version=v2.1.0"
+@set "version=v2.1.1"
 @set "lupdate=2021-05-22"
 
 @if /i "%~1" == "/?" goto help
@@ -140,6 +140,10 @@
 @echo USAGE:
 @echo;
 @echo archiveit.bat ^<target^> ^<archive-directory^> [/?] [/o] [/7z] [^<7z options^> ...]
+@echo;
+@echo         ^<target^>                The directory to be archived
+@echo         ^<archive-directory^>     Where archives go.
+@echo                                 /here means the same location as ^<target^>.
 @echo;
 @echo Switches:
 @echo(        /?  show help
