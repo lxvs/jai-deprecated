@@ -1,5 +1,5 @@
 @setlocal
-@set "version=v2.1.2"
+@set "version=v2.1.3"
 @set "lupdate=2021-05-22"
 
 @echo;
@@ -11,6 +11,7 @@
 @if /i "%~1" == "/?" goto help
 @if /i "%~1" == "noterm" (
     @set "pause=@pause"
+    @title Just Archive It %version%
     @shift
 ) else @set "pause="
 
