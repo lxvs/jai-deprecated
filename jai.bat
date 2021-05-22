@@ -1,6 +1,6 @@
 @setlocal
-@set "version=v1.0.3"
-@set "lupdate=2021-05-20"
+@set "version=v2.0.0"
+@set "lupdate=2021-05-22"
 
 @if /i "%~1" == "/?" goto help
 @if /i "%~1" == "/7z" if exist "%PATH_TO_7Z%" (
