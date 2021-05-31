@@ -1,6 +1,6 @@
 @setlocal
-@set "version=v2.1.3"
-@set "lupdate=2021-05-22"
+@set "version=v2.1.4"
+@set "lupdate=2021-05-31"
 
 @echo;
 @echo     Just Archive It %version%
@@ -36,6 +36,7 @@
 @set "target=%~1"
 @set "target_filename=%~nx1"
 @set "target_dir=%~dp1"
+@if "%target_dir:~-1%" == "\" set "target_dir=%target_dir:~0,-1%"
 @shift
 
 @if "%target%" == "" (
